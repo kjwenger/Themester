@@ -1,0 +1,3 @@
+[submodule "original/bobbylight/RSyntaxTextArea"]
+	path = original/bobbylight/RSyntaxTextArea
+	url = https://github.com/bobbylight/RSyntaxTextArea.git

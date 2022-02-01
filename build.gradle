@@ -5,3 +5,16 @@
  * Learn more about Gradle by exploring our samples at https://docs.gradle.org/7.3.3/samples
  * This project uses @Incubating APIs which are subject to change.
  */
+
+repositories {
+    mavenCentral()
+}
+
+tasks.register('copyRSyntaxTextAreaThemes', Copy) {
+    from layout.projectDirectory.file(
+            "original/bobbylight/RSyntaxTextArea/RSyntaxTextArea/" +
+                    "src/main/resources/org/fife/ui/rsyntaxtextarea/themes")
+    include "*.xml"
+    into layout.buildDirectory.dir("themes/bobbylight/RSyntaxTextArea")
+}
+
