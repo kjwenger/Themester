@@ -1,3 +1,3 @@
 # Themester
 
-Converts look and feels and themes of differing frameworks forth and back
+Converts look and feels and themes of different frameworks forth and back.
